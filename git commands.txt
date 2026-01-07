@@ -1,8 +1,8 @@
-1) git clone https://github.com/alokkumar1986/14thAugustBatch.git
+1) git clone https://github.com/alokkumar1986/19th-Dec-2025.git
 
-git clone https://github.com/alokkumar1986/R-Programming-20th-Nov-2025-Aptech.git
+git clone 
 
-To copy a git branch to local system / computer
+To copy a git branch to local system / computer (one time)
 
 2) git add -A 
 
@@ -14,7 +14,7 @@ commit files to git
 
 4) git push
 
-To push files to branch
+To push files to branch from local 
 
 5) git pull
 
