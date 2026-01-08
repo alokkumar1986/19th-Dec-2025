@@ -1,3 +1,38 @@
 Python Fundamental :
-
 =============================
+
+Indentation & whitespace :
+
+Every line in python should start from a common line. If there is a block, then the line inside the block should start with a whitespace.
+
+Comments : 
+
+There are two types comments.
+
+1) Single-line #
+2) Multiline ''' '''/ """ """
+
+When a line or more lines are commented, then interpreter ignores or skips them.
+
+
+Identifiers :
+
+Any name used for variable, function, class and module is called identifiers
+
+rules :
+1) must contain a-z, A-Z, 0-9, _
+2) must not start with a digit
+3) must not be too lengthy. (meaningful and short)
+4) must not use a keyword as identifiers
+5) Case-sensitive 
+
+cash$ = 10  #invalid
+name = "Aptech"  #valid
+_hi = 90 #valid
+s#s = 'sos' #invalid 
+
+A = 10
+a = 20
+
+
+
