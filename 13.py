@@ -1,10 +1,10 @@
-# a = 10
-# b = 15
-# c = -100
-# print(type(a)) # <class 'int'>
-# print(type(b)) # <class 'int'>
-# print(type(c)) #<class 'int'>
-
+'''a = 10
+b = 15
+c = -100
+print(type(a)) # <class 'int'>
+print(type(b)) # <class 'int'>
+print(type(c)) # <class 'int'>
+'''
 
 # a = 10.0
 # b = 15.12

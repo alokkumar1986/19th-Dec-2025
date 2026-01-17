@@ -1,4 +1,4 @@
-what is REPL in python?
+What is REPL in python?
 
 It is the interactive shell to run short python code (one liner). 
 

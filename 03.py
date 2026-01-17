@@ -11,6 +11,6 @@ print(num1, num2)
 sum = num1 + num2
 print("The sum is: ", sum)
 
-print("My name name is :", "Aptech", "It is situated in Nayapalli, Bhubaneswar")
+# print("My name name is :", "Aptech", "It is situated in Nayapalli, Bhubaneswar")
 
 

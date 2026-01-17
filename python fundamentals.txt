@@ -17,7 +17,7 @@ When a line or more lines are commented, then interpreter ignores or skips them.
 
 Identifiers :
 
-Any name used for variable, function, class and module is called identifiers
+Any name/word used for variable, function, class and module is called identifiers
 
 rules :
 1) must contain a-z, A-Z, 0-9, _
@@ -44,7 +44,7 @@ a = 20
 
 Statements : 
 
-Statement is an instruction to interpreter/computer. So in python every line is a statement.
+Statement is an instruction to interpreter/computer. So in python, every line is a statement.
 
 In a python program, there may be group of statements.
 
@@ -54,6 +54,9 @@ e.g.
 
 for I in range(10):
    print(I)
+
+
+
 
 Variables : variable is an identifier which stores a value.
 
