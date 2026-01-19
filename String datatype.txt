@@ -1,0 +1,103 @@
+String datatype :
+
+Anything that is enclosed with a single quote or double quote is considered as string.
+
+e.g.
+
+a = 'aptech'
+
+b = "APTECH"
+
+print("Aptech")
+
+print(type(a)) #<class 'str'>
+print(type(b)) #<class 'str'>
+
+Quote within another quote :
+=============================
+
+a = 'Ram's House'
+
+b = "Aliva"s brother"
+
+Here both string are invalid, because we can not use single quote (') within another single quote (').
+And also we can not use double quote (") within  another doble quote (")
+
+a = 'Ram"s House'
+
+b = "Aliva's brother"
+
+Here both are valid now.
+
+
+multiline string :
+=======================
+
+For assigning a multiline string to a varibale, we generally use  '''/ """.
+
+e.g.
+
+a = '''We are Learning Python Programming. 
+It is a part of Data Science Course.'''
+
+b = """We are Learning Python Programming. 
+It is a part of Data Science Course."""
+
+print(a)
+print(b)
+
+
+Escape Characters :
+======================
+
+These are use to format a string in the output.
+
+\b  : back space
+\r  : carriage return
+\t  : horizontal tab
+\'  : single quote
+\"  : doble quote
+\/  : backward slash
+
+
+a = "Apte\bch"
+print(a)
+
+b = "Apte\rch"
+print(b)  #chte
+
+c = "Ap\ttech"
+print(c)  #Ap tech
+
+
+String Length :
+===================
+
+a = "Aptech"
+b = "Learning"
+
+print(len(a))
+print(len(b))
+
+
+Part of string :
+===================
+
+a = "Aptech Learning"
+b = 'tech'
+
+print(b in a)   #True
+
+
+Loop in String :
+=========================
+
+a = "Aptech Learning"
+
+for i in a:
+ print(i) 
+
+for i in a:
+ print(i, end ="")  #Aptech Learning
+
+

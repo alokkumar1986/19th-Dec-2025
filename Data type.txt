@@ -48,4 +48,14 @@ print(type(b)) #<class 'complex'>
 print(a.real)
 
 
+Type Casting : Conversion of one datatype to other explicitly.
+
+int() : To convert into int
+float() : To convert into float
+complex() : To convert into complex
+
+
+
+
+
 
