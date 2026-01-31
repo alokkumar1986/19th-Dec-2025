@@ -54,6 +54,8 @@ A statement is a combination of identifiers, operators, keywords, values etc.
 
 e.g. 
 
+name = 10+20
+
 for I in range(10):
    print(I)
 
