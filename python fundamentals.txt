@@ -88,9 +88,7 @@ name = "Aptech"
 * Single variable with a single value
 
 name = "Aptech"
-
 a = 10
-
 z = 1.234
 
 * Multiple variable with multiple values in a single line
@@ -109,9 +107,16 @@ print(a)
 print(b)
 print(c)
 
+------------
+fruits = ["Apple", "Banana", "Orange"]
+
+[a, *b ] = fruits
+print(a)
+print(b)
+
 note : It is called unpacking values from a variable
 
-
+#======================================================================
 Why python is considered as dynamic typed programming language ?
 
 When we assign a value to a variable, variable type automatically converted to the type of value assigned.
@@ -123,7 +128,7 @@ In programming scope context, variable are two types
 1) local variable
 2) global variable
 
-A vaiable declared within a block is local to that block and it can not be accessed outside.
+A variable declared within a block is local to that block and it can not be accessed outside.
 
 A variable declared with global scope can be accessed anywhere.
 

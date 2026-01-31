@@ -7,7 +7,7 @@ There are several data type
 1) numeric : int, float, complex
 2) string : str
 3) Boolean : True, False
-4) map : dict
+4) map : dictionary
 5) set : set, frozen set
 6) bytes : bytes array
 7) sequence : list, tuple, range 
