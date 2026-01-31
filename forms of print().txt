@@ -20,13 +20,13 @@ print(a, "Learning") #Aptech Learning
 
 a = "Aptech"
 b = "learning"
-print(a, b)
+print(a, b) #Aptech learning
 
 example : 
 #Write a program to find sum of two numbers;
 
 num1 =int(input("Enter first number : ")) #10
-num2 =int(input("Enter seond number : ")) #20
+num2 =int(input("Enter second number : ")) #20
 
 print("Sum of ", num1, " and ", num2, " is ", num1+num2)
 
@@ -38,6 +38,7 @@ a = "Aptech"
 b = "Learning"
 
 print(a+b)  #AptechLearning
+print(a+" "+b) #Aptech Learning
 
 5) to print variable with value and {}
 

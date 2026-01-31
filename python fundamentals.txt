@@ -5,6 +5,8 @@ Indentation & whitespace :
 
 Every line in python should start from a common line. If there is a block, then the line inside the block should start with a whitespace.
 
+; In python there is no semicolon to end a line, When a new line starts, it is considered that the previous line ended.
+
 Comments : 
 
 There are two types comments.
