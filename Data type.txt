@@ -57,5 +57,8 @@ complex() : To convert into complex
 
 
 
+a+bj a -- real part
+     b -- imaginary part
+
 
 

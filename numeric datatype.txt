@@ -1,0 +1,170 @@
+int  : whole number    ..... -2, -1, 0, 1, 2 ...
+float : decimal number  12.123
+complex : a+bj  = 10 + 10j
+
+
+
+decimal  <-----> binary   
+octal <------> decimal
+hexadecimal <----------> decimal
+
+
+hexadecimal <-------> decimal <--------> octal
+
+
+0---9
+0,1
+0---7
+0----9,A,B,C,D,E,F
+
+15      bin(), oct(), hex()  
+0B1111  0b1111
+0O17    0o17
+0xf     0Xf
+===========================================================
+
+sequence data type (list, tuple) :
+
+a = [10, 20, 30, 40]
+b = (10, 20, 30, 40)
+
+In sequence datatype, we can store multiple values. Sequence data type is two type : list & tuple
+
+Sequences are ordered group of items/values where position and order matter.
+
+
+list : 
+======================================================================
+
+In list, we can store multiple values in a single variable using []
+
+syntax : 
+
+l = ['apple', 'banana', 'orange', 'papaya']
+print(type(l)) # <class 'list'>
+
+
+list always ordered using an index. index starts from 0 if we consider from left to right. Or index starts with -1 if consider from right to left 
+
+
+print(l[0])  #apple
+print(l[3])  #papaya
+print(l[6])  #error list index out of range
+
+print(l[-1])  #papaya
+print(l[-2]) #orange
+print(l[-4]) #apple
+print(l[-5]) #error list index out of range
+
+
+list is dynamic and mutable :
+====================================
+l = ['apple', 'banana', 'orange', 'papaya']
+
+l[0] = 'grapes'
+
+print(l)
+
+
+methods used in list : 
+==========================
+
+len() : It will give you, the number of values stored in it.
+
+l = ['apple', 'banana', 'orange', 'papaya']
+
+print(len(l)) # 4
+
+
+append() : We can add a new value to the list. The new value will be added at the end.
+
+
+l = ['apple', 'banana', 'orange', 'papaya']
+l.append('grapes')
+print(l)
+
+insert() : We can insert a new value to a specific position.
+
+l = ['apple', 'banana', 'orange', 'papaya']
+l.insert(2, 'grapes')
+print(l)
+
+
+remove() : We can delete a value from the list
+
+l = ['apple', 'banana', 'orange', 'papaya']
+
+l.remove('banana')
+
+print(l)
+
+
+pop() : It will remove last item and return it.
+
+
+l = ['apple', 'banana', 'orange', 'papaya']
+
+a = l.pop()
+
+print(a)
+
+print(l)
+
+
+sort() : It will sort the values in an order
+
+l = ['apple',  'orange', 'papaya', 'banana']
+l.sort()
+print(l)
+
+reverse() : It will print values in reverse order
+
+
+l = ['apple',  'orange', 'papaya', 'banana']
+l.reverse()
+print(l)
+
+
+List slicing : 
+
+
+[start:stop:step]  whenever step is not mentioned, then by default step =1
+                   whenever start is not mentioned, then by default start =0
+                   whenever stop is not mentioned, then by default stop = last index
+
+                   whenever start, stop is not mentioned, then by default start = 0, stop = last index
+
+ 
+
+
+start : starting index 
+stop : end index (exclude)
+step : jump
+
+l = ['apple',  'orange', 'papaya', 'banana']
+
+l[1:3] # ['orange', 'papaya']
+
+
+l[:3] # ['apple',  'orange', 'papaya']
+
+l[1:] # ['orange', 'papaya', 'banana']
+
+
+print(l[-3:-1]) 
+
+print(l[:]) #['apple',  'orange', 'papaya', 'banana']
+
+
+print(l[::-1])
+
+
+
+
+
+
+
+
+
+
+
