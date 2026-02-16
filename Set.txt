@@ -1,0 +1,34 @@
+Set :
+
+set is a data structure which is unorder, unchangeable and unique.
+
+{}
+
+syntax :
+
+s = {1, 2, 3, 4, 5}
+
+print(type(s)) #<class 'set'>
+
+
+s = set((1,2,3,4,5))
+print(type(s)) #<class 'set'>
+
+set is unorder, unchangeable : 
+========================
+
+s = {1, 2, 3, 4, 5}
+print(s)
+
+s[0] = 10 #error
+
+we can not access elements using index (unorder).
+We can not assign a value to an index of the set
+
+set is unique/ not allow duplicate
+
+s = {1, 2, 3, 3, 2, 4, 5}
+
+print(s)
+
+
