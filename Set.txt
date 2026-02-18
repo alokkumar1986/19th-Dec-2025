@@ -2,7 +2,9 @@ Set :
 
 set is a data structure which is unorder, unchangeable and unique.
 
-{}
+{} : set   
+[] : list 
+() : tuple
 
 syntax :
 
@@ -17,7 +19,7 @@ print(type(s)) #<class 'set'>
 set is unorder, unchangeable : 
 ========================
 
-s = {1, 2, 3, 4, 5}
+s = {1, 2, 3, 4, 5} 
 print(s)
 
 s[0] = 10 #error
@@ -30,5 +32,125 @@ set is unique/ not allow duplicate
 s = {1, 2, 3, 3, 2, 4, 5}
 
 print(s)
+
+#======================================================
+How to access the elements: 
+
+We can access the element using a loop and membership operator.
+
+s = {1, 2, 3, 3, 2, 4, 5}
+
+for i in s :
+  print(i)
+
+#======================================================
+We can not change the value in a set, but we can add a value
+
+add() : This method is used to add a value to the set
+
+
+s = {1, 2, 3, 3, 2, 4, 5}
+
+s.add(6)
+
+print(s)
+
+remove() & discard() : These two methods are used to remove a value from the set
+
+s = {1, 2, 3, 3, 2, 4, 5}
+
+s.remove(4)
+
+print(s)
+
+================================
+s = {1, 2, 3, 3, 2, 4, 5}
+
+s.discard(4)
+
+print(s)
+
+
+pop() :  This method is used to remove a value and return 
+
+s = {1, 2, 3, 3, 2, 4, 5}
+i = s.pop()
+print(i)
+print(s)
+
+
+pop() in list vs pop() in set :
+
+In List, pop() always remove last item/value from the list and return it whereas pop() in set remove any item/value (not decided) and return that value. 
+
+clear() : This is used to clear all the values from the set And a empty set remain.
+del : This is used to del a set.
+
+s = {1, 2, 3, 3, 2, 4, 5}
+s.clear()
+print(s)
+
+s = {1, 2, 3, 3, 2, 4, 5}
+del s
+print(s)
+==============================================================
+
+empty set : 
+
+{} : This is not an empty set but it is an empty dictionary
+set() : This is empty set
+
+Exercise :
+
+Create an empty set and add few numbers and print the set values.
+
+
+create a set
+
+addition of few number
+
+print the values
+
+s = set()
+
+s.add(0)
+print(s)
+
+
+set methods :
+
+union()
+intersection()
+difference()
+symmetric_difference()
+
+
+
+C = A.union(B)  |
+
+C = A.intersection(B)  &
+
+C = A.difference(B)  -
+
+C = A.symmetric_differnece(B)  ^
+
+update()  : 
+
+s = {1, 2, 3, 5, 6}
+s1 = [6, 7, 8, 9]
+
+s.update(s1)
+
+print(s)
+
+
+What is the difference between list, tuple, set?
+
+list : ordered, changeable, allow duplicate , []
+tuple : ordered, unchangeable, allow duplicate, ()
+set : unordered, unchangeable, unique, {}
+
+
+
 
 
