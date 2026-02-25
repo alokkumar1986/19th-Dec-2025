@@ -97,7 +97,33 @@ students ={
 
 }
 
+#-----------------------------------------------------------
 
+Methods used in dict :
+
+update() : To add a key, value pair to a dict
+pop() : To remove a key and return its value
+del : To delete the dict from memery
+clear() : To clear all the items from the dict and make it blank one
+
+
+students = {
+"name" : "ABCD",
+"age" : 25
+}
+
+students.update({"course" : "Python"})
+print(students)
+
+#-----------------------------------------------
+
+students = {
+"name" : "ABCD",
+"age" : 25
+}
+
+students.pop('age')
+print(students)
 
 
 
