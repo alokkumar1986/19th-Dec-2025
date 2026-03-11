@@ -105,8 +105,18 @@ else:
 
 
 
+Question :
 
+1) What will be the output?
 
+a = 10
+if a>1:
+ pass
+print('Hello')
+
+#Hello 
+
+Pass : It is the statement found in empty block. Whenever there is no statement inside a if block, generally we get error. In order to make the program run successfully, we write pass statement.
 
 
 
